@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Sprite Demo</title>
+		<style type="text/css">
+			.bouncing-ball {
+				height: 100px;
+				width: 500px;
+				outline: 1px solid gold;
+			}
+			.animated {
+				background-repeat: no-repeat;
+				background-position: 0 0;
+			}
+		</style>
+	</head>
+	<body>
+		<div class="animated bouncing-ball" data-role="png-animation" data-autoplay="true" data-repeat="false" data-src="img/sprite.png" data-frames="64"></div>
+
+		<script src="../libs/jquery/jquery.js"></script>
+		<script src="../src/simple-sprite-animation.js"></script>
+		<script>
+		console.log('script')
+			$('.animated').animateSprite({});
+		</script>
+	</body>
+</html>

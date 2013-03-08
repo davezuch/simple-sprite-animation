@@ -1,0 +1,26 @@
+{
+  "name": "simple-sprite-animation",
+  "title": "Simple Sprite Animation",
+  "description": "Simple jquery plugin for frame based animation using PNG sprite sheets.",
+  "version": "0.1.0",
+  "homepage": "https://github.com/ssklar/simple-sprite-animation",
+  "author": {
+    "name": "Sasha Sklar",
+    "email": "sashasklar@gmail.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/ssklar/simple-sprite-animation.git"
+  },
+  "bugs": "https://github.com/ssklar/simple-sprite-animation/issues",
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/ssklar/simple-sprite-animation/blob/master/LICENSE-MIT"
+    }
+  ],
+  "dependencies": {
+    "jquery": "*"
+  },
+  "keywords": []
+}
