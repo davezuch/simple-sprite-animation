@@ -23,8 +23,10 @@ module.exports = function(grunt) {
   });
 
   // These plugins provide necessary tasks.
-  grunt.loadNpmTasks('grunt-spritesmith');
+  grunt.loadNpmTasks('grunt-ssa-smith');
 
+  //console.log(grunt.spritesmith);
+  
   // Default task.
   grunt.registerTask('default', 'sprite');
 };
